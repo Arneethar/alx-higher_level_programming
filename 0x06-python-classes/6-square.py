@@ -55,11 +55,10 @@ class Square:
   def my_print(self):
     if self.__size == 0:
           print()
+          return
     for ch in range(self.__position[1]):
       print()
     leng = self.__position[0]
     for ch in range(self.__size):
       print("{}{}".format(" "*leng,"#"*self.__size),end="")
       print()
-
-             
