@@ -16,9 +16,11 @@ if size is equal to 0, print an empty line
 position should be use by using space - Don’t fill lines by spaces when position[1] > 0
 """
 class Square:
+  """This class creates a square"""
   def __init__(self,size = 0,position=(0, 0)):
     self.__size = size
     self.__position = position
+    
 
   @property
   def size(self):
@@ -59,3 +61,5 @@ class Square:
     for ch in range(self.__size):
       print("{}{}".format(" "*leng,"#"*self.__size),end="")
       print()
+
+             
