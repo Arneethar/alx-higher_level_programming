@@ -1,5 +1,0 @@
--- This scripts lists all the cities of californa found
-SELECT id, name
-FROM hbtn_0d_usa
-WHERE name = California
-ORDER BY cities.id
